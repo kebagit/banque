@@ -12,9 +12,7 @@ import Verification from '../interface/Verification.js'
                   }
                 else
                   {
-                 // alert("Not a valid Amercican Express credit card 
-
-numero!");
+                 // alert("Not a valid Amercican Express credit card numero!");
                   return false;
                   }
           }

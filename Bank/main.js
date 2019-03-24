@@ -1,12 +1,12 @@
 import Verification from '../interface/Verification.js';
-import Visa from '../class/Visacard.js'
-import Mastercard from '../class/Mastercard.js'
-import American_Express from '../class/American_Express.js'
+import Visa from '../Bank/Visa.js'
+import Mastercard from '../Bank/Mastercard.js'
+import American_Express from '../Bank/American_Express.js'
     //let c = new Visa();
     //let b=new Mastercard(5123654789652358);
     //let tem;
     let a = prompt("Entrer un numero de carte");
-    let v = new Visacard(a);
+    let v = new Visa(a);
     let m = new Mastercard(a);
     let n = new American_Express(a);
 
